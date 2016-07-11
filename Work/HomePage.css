@@ -71,8 +71,8 @@ li a:hover {
  
  
 .third_bloc h1:before,
-.third_bloc h1:after,.forth_bloc h1:before,
-.forth_bloc h1:after   {
+.third_bloc h1:after,.forth_bloc .header:before,
+.forth_bloc .header:after   {
     background-color: grey;
     content: "";
     display: inline-block;
@@ -90,14 +90,29 @@ li a:hover {
     margin-right: -60%;
 }
 
-.forth_bloc{
+.forth_bloc {
 	background: #30c3a6;
 	padding-top:5%;
 	padding-right:15%;
 	 padding-left:15%;
 	 padding-bottom:5%;
-	text-align:center;
+	 color:white;
+	 
 }
+ .header{
+	 text-align:center;
+ }
+
+
+.text1 {
+	color:white;
+	
+}
+.img1{
+	float:left;
+	
+}
+
 
 
 
