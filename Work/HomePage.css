@@ -90,27 +90,59 @@ li a:hover {
     margin-right: -60%;
 }
 
-.forth_bloc {
-	background: #30c3a6;
-	padding-top:5%;
-	padding-right:15%;
-	 padding-left:15%;
-	 padding-bottom:5%;
-	 color:white;
-	 
+.third-aside{
+	overflow: hidden;
+	background-color: #30c3a6;
+	text-align: center;
 }
- .header{
-	 text-align:center;
- }
-
-
-.text1 {
+.third-section{
+	margin:0 250px;
 	color:white;
+}
+.third-section h1{
+
+	border-bottom: 4px solid #dee5e8;
+	line-height: 0;
+	padding-top: 30px;
 	
 }
-.img1{
-	float:left;
-	
+.third-section h1 span{
+    padding: 25px;
+    font-weight: lighter;
+    background-color: #30c3a6;	
+}
+.third-section .images{
+	margin-top:50px;
+	align:center;
+}
+.third-section div.img {
+
+ 	margin:0 85px;
+    float: left;
+    width: 180px;
+}
+
+
+.third-section div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.third-section div .desc,h2 {
+    padding: 15px;
+    text-align: center;
+}
+footer{
+
+	overflow: hidden;
+	padding: 15px;
+	background-color:#233446;
+}
+footer p{
+	margin-top:15px;
+	float: right;
+	padding-right: 13%;
+	color:white;
 }
 
 
