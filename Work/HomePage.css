@@ -90,48 +90,7 @@ li a:hover {
     margin-right: -60%;
 }
 
-.third-aside{
-	overflow: hidden;
-	background-color: #30c3a6;
-	text-align: center;
-}
-.third-section{
-	margin:0 250px;
-	color:white;
-}
-.third-section h1{
 
-	border-bottom: 4px solid #dee5e8;
-	line-height: 0;
-	padding-top: 30px;
-	
-}
-.third-section h1 span{
-    padding: 25px;
-    font-weight: lighter;
-    background-color: #30c3a6;	
-}
-.third-section .images{
-	margin-top:50px;
-	align:center;
-}
-.third-section div.img {
-
- 	margin:0 85px;
-    float: left;
-    width: 180px;
-}
-
-
-.third-section div.img img {
-    width: 100%;
-    height: auto;
-}
-
-.third-section div .desc,h2 {
-    padding: 15px;
-    text-align: center;
-}
 footer{
 
 	overflow: hidden;
@@ -144,6 +103,31 @@ footer p{
 	padding-right: 13%;
 	color:white;
 }
+
+.useless{
+	text-align:center;
+	padding-right:7%;
+	padding-left:7%;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 20px;
+
+}
+.useless1{
+	text-align:center;
+	padding-right:10%;
+	padding-left:10%;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 10px;
+
+}
+
+td img {
+	 width: 250px;
+    height: auto;
+}
+
 
 
 
