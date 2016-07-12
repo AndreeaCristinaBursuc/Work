@@ -72,7 +72,7 @@ li a:hover {
  
 .third_bloc h1:before,
 .third_bloc h1:after,.forth_bloc .header:before,
-.forth_bloc .header:after   {
+.forth_bloc .header:after ,.form h1:before, .form h1:after  {
     background-color: grey;
     content: "";
     display: inline-block;
@@ -81,15 +81,26 @@ li a:hover {
     vertical-align: middle;
     width: 50%;
 }
-.third_bloc h1:before,.forth_bloc h1:before {
+.third_bloc h1:before,.forth_bloc h1:before,.form h1:before {
     right: 0.5em;
     margin-left: -60%;
 }
-.third_bloc h1:after,.forth_bloc h1:after {
+.third_bloc h1:after,.forth_bloc h1:after, .form h1:after {
     left: 0.5em;
     margin-right: -60%;
 }
 
+
+.forth_bloc{
+	text-align:center;
+	color:white;
+	background-color:#30c3a6;
+	 padding-top:5%;
+	 padding-right:15%;
+	 padding-left:15%;
+	 padding-bottom:5%;
+	
+}
 
 footer{
 
@@ -104,7 +115,7 @@ footer p{
 	color:white;
 }
 
-.useless{
+.text1{
 	text-align:center;
 	padding-right:7%;
 	padding-left:7%;
@@ -113,7 +124,7 @@ footer p{
 	font-size: 20px;
 
 }
-.useless1{
+.text2{
 	text-align:center;
 	padding-right:10%;
 	padding-left:10%;
@@ -127,6 +138,57 @@ td img {
 	 width: 250px;
     height: auto;
 }
+
+.form{
+	text-align:center;
+	 background-color:red;
+	 padding-top:5%;
+	 padding-right:15%;
+	 padding-left:15%;
+	 padding-bottom:5%;
+}
+
+.form_box{
+	background-color:white;
+	margin:5%;
+	padding: 5%;
+}
+
+input {
+    width: 20%;
+	height:30px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+
+.form_box label,input{
+	float:left;
+	margin:5px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.ceva{
+	width:100%
+	border-left:4px;
+}
+#message {
+	width:400px;
+	height:80px;
+}
+
+input[type=submit]{
+	width:50%;
+	position:center;
+	margin-right:40px;
+}
+
 
 
 
