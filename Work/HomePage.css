@@ -1,50 +1,44 @@
-
-
-header {
-    display: flex;
-    padding: 10px;
-    margin-top:3%;
-    border-top: 2px solid #dee5e8;
-    border-bottom: 2px solid #dee5e8;
-    margin-bottom: 5%;
+.containerTop{
+	overflow: auto;
+	text-align: center;
+}
+@media  (max-width: 560px){
+	.topButtons{
+		display: inline-block; 
+	}
+	.allTopButtons{
+		padding: 1%;
+	}
 }
 
-.logo{
-	margin-left: 200px;
+@media (min-width: 561px){
+	.topLogo{
+		float: left;
+		display: inline-block; 
+		text-align: center;
+		height: 70px;	
+		padding-left:15%;
+	}
+	.topButtons{
+		float: none;
+		display: inline-block; 
+		text-align: center;
+		height: 70px;	
+		
+	}
+	.allTopButtons{
+		overflow: auto;
+		text-align: center;
+	}
 }
 
-li {
-    float: left;
-	padding: 15px 10px;
-}
-
-
-li a {
+.topLinks {
     color: #8c8c8c;
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-
-li a:hover {
-    background-color: #111;
-}
-
-.main-menu_container {
-    align-items: center;
-    display: flex;
-}
-
-.main-menu {
-    margin: auto;
+    position: relative;
+    top: 50%; 
 }
 
 .second_bloc{
@@ -54,13 +48,7 @@ li a:hover {
 	color: white;
 	padding-top:3%;
 }
-
- button a{
-	 text-decoration:none;
-	 color:white;
- }
- 
- .third_bloc{
+.third_bloc{
 	 text-align:center;
 	 background-color:white;
 	 padding-top:5%;
@@ -69,34 +57,186 @@ li a:hover {
 	 padding-bottom:5%;
  }
  
- 
+.forth_bloc{
+	color:white;
+	background-color:#30c3a6;
+}
+@media (min-width: 1600px){
+	.picturesGroup{
+		overflow: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+	}	
+}
+
+@media (min-width: 1300px) and (max-width: 1599px){
+	.picturesGroup{
+		overflow: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+	}	
+}
+
+@media (min-width: 561px) and (max-width: 1299px){
+	.picturesGroup{
+		overflow: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+	}	
+}
+
+@media (max-width: 560px) {
+	.picturesGroup{
+		overflow: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+	}	
+}
+
+@media  (max-width: 560px){
+	.image{
+		width: 100px;
+		height: 100px;
+	}
+	.pictures{
+		float: left;
+		display: inline-block; 
+		text-align: center;	
+	}
+}
+
+@media (min-width: 561px){
+	.image{
+		width: 300px;
+		height: 300px;
+	}
+	.pictures{
+		float: left;
+		display: inline-block; 
+		text-align: center;	
+		width: 400px;
+	}
+}
+
+.text1{
+	text-align:center;
+	padding-right:7%;
+	padding-left:7%;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 20px;
+
+}
+.text2{
+	text-align:center;
+	padding-right:10%;
+	padding-left:10%;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 10px;
+
+}
+
+.form{
+	 text-align:center;
+	 background-color:red;
+	 padding-top:5%;
+	 padding-right:15%;
+	 padding-left:15%;
+	 padding-bottom:5%;
+	 border:10px;
+	 border-color:#ffb3b3;
+}
+
+.form_box{
+	background-color:white;
+	margin:0 auto;
+	padding: 18% 7%;
+	width:60%;
+}
+
+input {
+    width: 70%;
+	height:30px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;	
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form_box label,input{
+	float:left;
+	margin:0 auto;
+}
+
+
 .third_bloc h1:before,
-.third_bloc h1:after,.forth_bloc h1:before,
-.forth_bloc h1:after   {
+.third_bloc h1:after,
+.forth_bloc h1:before,
+.forth_bloc h1:after,
+.form h1:before,
+.form h1:after{
     background-color: grey;
     content: "";
     display: inline-block;
     height: 3px;
     position: relative;
     vertical-align: middle;
-    width: 50%;
+    width: 30%;
 }
-.third_bloc h1:before,.forth_bloc h1:before {
+
+.third_bloc h1:before,
+.forth_bloc h1:before,
+.form h1:before {
     right: 0.5em;
     margin-left: -60%;
 }
-.third_bloc h1:after,.forth_bloc h1:after {
+
+.third_bloc h1:after,
+.forth_bloc h1:after,
+.form h1:after{
     left: 0.5em;
     margin-right: -60%;
 }
 
-.forth_bloc{
-	background: #30c3a6;
-	padding-top:5%;
-	padding-right:15%;
-	 padding-left:15%;
-	 padding-bottom:5%;
+header {
+    padding: 1%;
+    margin-top:3%;
+    border-top: 2px solid #dee5e8;
+    border-bottom: 2px solid #dee5e8;
+    margin-bottom: 5%;
+}
+
+footer{
+	overflow:hidden;
 	text-align:center;
+	background-color:#333437;
+	
+}
+
+footer p{
+	float:right;
+	width:60%;
+	margin:3% auto;
+	color:white;
+
+}
+
+footer img{
+	margin:2% 0;
+	padding-left:10%;
+	
 }
 
 
